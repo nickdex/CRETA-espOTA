@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   res.send('Hello User');
 });
 
-app.get('/update.bin', (req, res) => {
+app.get('/update', (req, res) => {
   let date = new Date();
   console.log(date);
 
